@@ -53,7 +53,7 @@ switch (fruit) {
 // * If percentageComplete is between 81 and 99, print "This is the last push!".
 // * If percentageComplete is 100, print "You're there. Well done!". 
 
-const percentageComplete = 51;
+const percentageComplete = 31;
 
 // switch (percentageComplete) {
 //     case (percentageComplete < 30): console.log("Still a long way to go");
