@@ -53,37 +53,35 @@ switch (fruit) {
 // * If percentageComplete is between 81 and 99, print "This is the last push!".
 // * If percentageComplete is 100, print "You're there. Well done!". 
 
-const percentageComplete = 1;
+const percentageComplete = 51;
 
-// switch doesn't work - why?
-switch (true) {
+switch (percentageComplete) {
     case (percentageComplete < 30): console.log("Still a long way to go");
     break;
-    case ((percentageComplete >= 30) && (percentageComplete <= 50)): console.log("Slowly getting there");
+    case (percentageComplete < 51): console.log("Slowly getting there");
     break;
-    case ((percentageComplete >= 51) && (percentageComplete <= 80)): console.log("You can do it");
+    case (percentageComplete < 81): console.log("You can do it");
     break;
-    case ((percentageComplete >= 81) && (percentageComplete <= 99)): console.log("This is the last push");
+    case (percentageComplete < 100): console.log("This is the last push");
     break;
     default: console.log("You're there. Well done!");
 }
 
-// if else if else works
-if (percentageComplete < 30) {
-    console.log("Still a long way to go");
-}
-else if ((percentageComplete >= 30) && (percentageComplete <= 50)) {
-    console.log("Slowly getting there");
-}
-else if ((percentageComplete >= 51) && (percentageComplete <= 80)) {
-    console.log("You can do it");
-}
-else if ((percentageComplete >= 81) && (percentageComplete <= 99)) {
-    console.log("This is the last push");
-}
-else {
-    console.log("You're there. Well done!");
-}
+// if (percentageComplete < 30) {
+//     console.log("Still a long way to go");
+// }
+// else if ((percentageComplete >= 30) && (percentageComplete <= 50)) {
+//     console.log("Slowly getting there");
+// }
+// else if ((percentageComplete >= 51) && (percentageComplete <= 80)) {
+//     console.log("You can do it");
+// }
+// else if ((percentageComplete >= 81) && (percentageComplete <= 99)) {
+//     console.log("This is the last push");
+// }
+// else {
+//     console.log("You're there. Well done!");
+// }
 
 // #### 5. Differences
 // * When should you use a switch statement versus an `if else` statement. Comment your answer in your js file.

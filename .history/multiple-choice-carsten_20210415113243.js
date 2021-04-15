@@ -56,7 +56,7 @@ switch (fruit) {
 const percentageComplete = 1;
 
 // switch doesn't work - why?
-switch (true) {
+switch (percentageComplete) {
     case (percentageComplete < 30): console.log("Still a long way to go");
     break;
     case ((percentageComplete >= 30) && (percentageComplete <= 50)): console.log("Slowly getting there");
